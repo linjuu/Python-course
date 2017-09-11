@@ -1,0 +1,23 @@
+# This program asks for name and age and calculates year of birth
+
+print('Tell me your name, please?')
+
+myName = input()
+
+print('Nice to meet you, ' + myName)
+
+print('What is you age?')
+
+myAge = input()
+
+print('Did you celebrate your birthday yet? Type 1 for yes and 0 for no')
+
+ans = input()    
+
+if ans == '1':
+    print('Were you born in ' + str(2017 - int(myAge)) + '?')
+elif ans == '0':
+    print('Were you born in ' + str(2017 - int(myAge)+1) + '?')
+else:
+    print('Ok try again. I know you can do it.')
+      
